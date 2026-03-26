@@ -1,4 +1,4 @@
-Wild West, release 1
+Wild West, release 2
 By Gianluca Girelli & Garry Francis
 For Z-code interpreters
 
@@ -41,8 +41,7 @@ GET MINERAL
 W
 S
 S
-(X SEATS) (it might be worth searching them)
-SEARCH SEATS (you find a bottle)
+LOOK UNDER SEATS (you find a bottle)
 GET BOTTLE
 (X IT) (it's half full of whiskey)
 N
@@ -86,8 +85,9 @@ OPEN BAGS (you find a canteen)
 OPEN CANTEEN (it reveals some water)
 GET POWDER
 PUT IT IN WATER (you close canteen again, so no one will notice the difference)
-S (you hear one of Cortez's men at the horses)
-N
-(X CAMP) (it should be safe to go there now)
-E (bandits are dead from the Indian poison, you free your family and ride home)
+Z (someone is approaching, so you vacate the area)
+Z (bandit enters clearing, drinks poisoned water and collapses)
+N (there's now a dead bandit & a rifle here, canteen is empty)
+E
+SHOOT BANDITS (you bury the bodies and take your family home)
 ***THE END***
