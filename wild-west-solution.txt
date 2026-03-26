@@ -1,0 +1,93 @@
+Wild West, release 1
+By Gianluca Girelli & Garry Francis
+For Z-code interpreters
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution. You'll need to EXAMINE lots of things for this solution to make sense. Some optional (but significant) commands are shown in parentheses. These can be omitted once you know what to do.
+
+The game starts off in the desert. You can't map it in the conventional manner by dropping objects to make each room unique because you don't have many items. However, if you examine the desert, you'll find some hoof prints, so follow them. You can return later, when you have more objects, to map it properly and find a slightly shorter route.
+
+NOTE: There are some small changes compared to release 1, particularly in the stagecoach and the end game. There's also a more extensive HINT system.
+
+(X HORSE)
+(X SADDLE)
+(X BAG) (it's closed)
+OPEN BAG (you find a revolver)
+GET REVOLVER
+(X IT) (it's loaded with 6 bullets)
+S
+(X DESERT) (you see a faint trace of hoof prints in the sand)
+(X PRINTS) (they head east and west)
+(E)
+(X PRINTS) (they do a U-turn and head west)
+(W)
+W
+(X PRINTS) (they head west then south)
+W
+(X PRINTS) (they head east then south)
+E
+(X PRINTS) (they head south)
+S (you're out of the worst of the desert)
+(X DEPRESSION) (it's probably a crater left by an ancient meteorite)
+E
+(X SKULL) (something is glinting inside it, you also hear a rattling noise)
+(LISTEN) (something is rattling inside, obviously a rattlesnake)
+(Don't take the glint or the skull or the rattlesnake will kill you.)
+SHOOT SKULL WITH REVOLVER (it's reduced to pieces, killing whatever was inside)
+(L) (you see a mineral and a dead snake)
+GET MINERAL
+(X IT) (someone may find it precious)
+W
+S
+S
+(X SEATS) (it might be worth searching them)
+SEARCH SEATS (you find a bottle)
+GET BOTTLE
+(X IT) (it's half full of whiskey)
+N
+W
+N
+(U) (you don't have enough energy to climb to the top)
+N
+(N) (cougar is blocking the way)
+SHOOT COUGAR WITH REVOLVER (you can now go north)
+N
+W
+U
+GIVE MINERAL TO INDIANS (they take it and get the shaman)
+(X SHARMAN) (he's clutching the mineral)
+(TALK TO SHAMAN) ("What do you want to ask me about?")
+ASK SHAMAN ABOUT CORTEZ (he's camped beyond river, shaman gives you pouch, Indians feed you)
+(I) (you now have a leather pouch)
+(X POUCH) (it's closed)
+OPEN POUCH (it contains some poison powder)
+(GET POWDER) (leave it in pouch until time to use it or it might blow away)
+D
+E
+S
+S
+U
+GIVE BOTTLE TO MINER (he gives you a gold nugget in exchange)
+D
+S
+W
+(ASK FERRYMAN ABOUT BANDITS) (five men and two women crossed river yesterday)
+(W) (not without paying first)
+GIVE NUGGET TO FERRYMAN (you can now cross the river at any time)
+W (ferryman takes you to the other side)
+W
+N
+(LISTEN) (bandits' voices come from the east)
+(X HORSES) (there are five horses with harnesses and saddles on ground)
+(X BAGS) (they're closed)
+OPEN BAGS (you find a canteen)
+(X CANTEEN) (it's closed)
+OPEN CANTEEN (it reveals some water)
+GET POWDER
+PUT IT IN WATER (you close canteen again, so no one will notice the difference)
+S (you hear one of Cortez's men at the horses)
+N
+(X CAMP) (it should be safe to go there now)
+E (bandits are dead from the Indian poison, you free your family and ride home)
+***THE END***
